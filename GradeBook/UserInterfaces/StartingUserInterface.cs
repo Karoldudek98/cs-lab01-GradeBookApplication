@@ -65,7 +65,7 @@ namespace GradeBook.UserInterfaces
             var parts = command.Split(' ');
             if (parts.Length != 2)
             {
-                Console.WriteLine("Command not valid, Load requires a name and type of gradebook.");
+                Console.WriteLine("Command not valid, Load requires a name.");
                 return;
             }
             var name = parts[1];
